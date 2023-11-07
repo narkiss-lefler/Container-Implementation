@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/narkisslefler/ex7-narkisslefler/helpers.h
+cstdlib
+-
+cstdio
+-
+cstdint
+-
+cinttypes
+-
+cstring
+-
+
+/Users/narkisslefler/ex7-narkisslefler/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+vl_vector.h
+/Users/narkisslefler/ex7-narkisslefler/vl_vector.h
+helpers.h
+/Users/narkisslefler/ex7-narkisslefler/helpers.h
+vl_string.h
+/Users/narkisslefler/ex7-narkisslefler/vl_string.h
+
+/Users/narkisslefler/ex7-narkisslefler/vl_vector.h
+iostream
+-
+
